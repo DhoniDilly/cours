@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow&family=Poppins&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow&family=Poppins&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans+Narrow&family=Poppins&family=Raleway&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/********NaveBar**********/
+
+#navbar {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    padding: .9rem 5rem;
+}
+.logo_img {
+    width: 64px;
+    height: 32px;
+    object-fit: contain;
+}
+#navbarSupportedContent a {
+    color: rgb(19, 19, 19);
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid #89D0CA;
+}
+
+/*********panner_section******************/
+
+.banner {
+    height: 80vh;
+    background-color: #89D0CA;
+}
+.banner_section {
+    height: 100%;
+    background-color: #89D0CA;
+}
+.banner_section_inner {
+    height: 100%;
+    background-color: #89D0CA;
+}
+.banner_section_inner_left {
+    height: 100%;
+    background-color: #89D0CA;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column; */
+}
+.banner_section_inner_right {
+    height: 100%;
+    background-color: #89D0CA;
+}
+.banner_section_inner_left h4 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-left: 45px;
+    margin-top: 12rem;
+}
+.banner_section_inner_left h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding-left: 45px;
+}
+.banner_section_inner_left span {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+.banner_section_inner_left p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 45px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.read_more_btn {
+    font-size: 16px !important; 
+    letter-spacing: 2px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    padding: 12px 70px 12px 70px !important;
+    border-radius: 0px !important;
+    background-color: #111111 !important;
+    margin-left: 45px;
+}
+.freepik_link {
+    font-size: 14px;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+.banner_section_inner_right img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+/************today_course***************/
+
+.today_course {
+    height: 85vh;
+}
+.image_1 {
+    width: 427px;
+    height: 427px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-top: 12rem;
+    background-color: #89D0CA;
+    margin-left: 12rem;
+}
+.today_course_inner_row_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: translateX(-90px);
+    margin-top: -60px;
+}
+.today_course_inner_row_right h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 14rem;
+}
+.today_course_inner_row_right h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    padding-right: 150px
+}
+.today_course_inner_row_right h1 span {
+    font-weight: 900;
+}
+.today_course_inner_row_right p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding-right: 90px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+}
+.btn_1 {
+    margin-left: 0px !important;
+}
+.link_1 {
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.svg_image {
+    width: 142px;
+    height: 54px;
+    color: #89D0CA !important;
+}
+
+
+
+@media only screen and (max-width:500px) {
+    #navbarSupportedContent li:first-child {
+        padding-top: 30px;
+    }
+    #navbarSupportedContent a:hover {
+        border-bottom: 2px solid white;
+    }
+    .banner {
+        height: auto;
+    }
+    .banner_section_inner_left {
+        padding-bottom: 40px;
+    }
+    .banner_section_inner_left h4 {
+        margin-top: 4rem;
+        font-size: 20px;
+    }
+    .banner_section_inner_left h1 {
+        font-size: 36px;
+    }
+    .banner_section_inner_left h1 span {
+        font-size: 36px;
+    }
+    .banner_section_inner_left p {
+        font-size: 16px;
+        width: 80%;
+    }
+    .read_more_btn {
+        font-size: 16px !important;
+        padding: 9px 50px 9px 50px !important;
+    }
+    .today_course {
+        height: auto;
+    }
+    .image_1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 350px;
+        height: 350px;
+        margin-top: 5rem;
+    }
+    .today_course_inner_row_left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+        flex-direction: column;
+    }
+    .svg_image {
+        margin-left: -170px;
+        margin-top: 40px;
+    }
+    .today_course_inner_row_left img {
+
+        transform: translateX(-30px);
+        margin-top: -30px;
+    }
+    .today_course_inner_row_right h4 {
+        padding-top: 5rem;
+    }
+    .today_course_inner_row_right {
+        padding-bottom: 50px;
+    }
+    .today_course_inner_row_right h4, p, h1 {
+        padding-left: 50px;
+        padding-right: 0px !important;
+    }
+    .today_course_inner_row_right h4 {
+        font-size: 20px;
+    }
+    .today_course_inner_row_right h1 {
+        font-size: 36px;
+    }
+    .today_course_inner_row_right p {
+        font-size: 16px;
+    }
+    .link_1 {
+        padding-left: 50px;
+    }
+    .btn_1 {
+        margin-left: 50px !important;
+    }
+}
+
+
+@media only screen and (max-width:1200px) {
+    .image_1 {
+        margin-left: 80px;
+        margin-top: 17rem;
+    }
+    .today_course_inner_row_right h4 {
+        margin-top: 0rem;
+    }
+    .today_course_inner_row_right h1 {
+        padding-right: 20px;
+    }
+    .today_course_inner_row_right p {
+        padding-right: 0px;
+    }
+}
